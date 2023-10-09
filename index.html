@@ -51,8 +51,126 @@
         <p>
             Temukan lebih banyak informasi tentang kesehatan mental di situs web <a href="https://www.halodoc.com/kesehatan-mental" target="_blank">Mental Health Indonesia</a>.
         </p>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Kesehatan Mental</title>
+            <style>
+                table {
+                    width: 80%;
+                    border-collapse: collapse;
+                    margin: 15px;
+                    border: 2px solid #007BFF; 
+                }
+        
+                th, td {
+                    border: 1px solid #ccc; 
+                    padding: 10px;
+                    text-align: center; 
+                }
+        
+                th {
+                    background-color: #007BFF; 
+                    color: #fff;
+                }
+            </style>
+        </head>
+            <table border="1" cellspacing="0" cellpadding="10">
+                <h2>Jumlah Penyakit Mental di Indonesia</h2>
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Nama Penyakit Mental</th>
+                        <th>Jumlah Kasus</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Gangguan Kecemasan</td>
+                        <td>500.000</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Depresi</td>
+                        <td>350.000</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Gangguan Bipolar</td>
+                        <td>100.000</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Gangguan Makan</td>
+                        <td>200.000</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Schizophrenia</td>
+                        <td>50.000</td>
+                    </tr>
+                </tbody>
+            </table>  
+        </body>
         <img src="Mental_health.png" alt="Ilustrasi konsultasi">
     </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Konsultasi</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 20px auto; 
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        textarea {
+            width: 100%; 
+        }
+    </style>
+</head>
+<body>
+    <h2>Formulir Konsultasi</h2>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <td>Nama:</td>
+            <td><input type="text" name="nama" id="nama"></td>
+        </tr>
+        <tr>
+            <td>Usia:</td>
+            <td><input type="number" name="usia" id="usia"></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin:</td>
+            <td>
+                <select name="jenis-kelamin" id="jenis-kelamin">
+                    <option value="laki-laki">Laki-laki</option>
+                    <option value="perempuan">Perempuan</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Keluhan:</td>
+            <td><textarea name="keluhan" id="keluhan" rows="4" cols="50"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;"><input type="submit" value="Kirim"></td>
+        </tr>
+    </table>
+</body>
+</html>
     <style>
         body {
             font-family: Arial, sans-serif;
